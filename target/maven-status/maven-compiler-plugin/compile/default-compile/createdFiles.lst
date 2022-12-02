@@ -1,0 +1,15 @@
+com\wju\job_portal\repository\ApplicationsRepository.class
+com\wju\job_portal\repository\JobListingsRepository.class
+com\wju\job_portal\entity\UserSkills.class
+com\wju\job_portal\repository\JobSkillsRepository.class
+com\wju\job_portal\entity\Company.class
+com\wju\job_portal\entity\JobListings.class
+com\wju\job_portal\entity\Users.class
+com\wju\job_portal\JobPortalApplication.class
+com\wju\job_portal\controller\HealthController.class
+com\wju\job_portal\repository\UserSkillsRepository.class
+com\wju\job_portal\entity\Applications.class
+com\wju\job_portal\entity\UserType.class
+com\wju\job_portal\repository\UserTypeRepository.class
+com\wju\job_portal\entity\JobSkills.class
+com\wju\job_portal\repository\UsersRepository.class

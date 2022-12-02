@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- All log files located in logs file of the project -->
+    <property name="LOGS" value="./logs" />
+
+  <!--  &lt;!&ndash;    get properties from active profile&ndash;&gt;
+    <springProperty scope="context" name="profile" source="spring.profiles.active"/>
+    <property resource="logback-${profile}.properties" />
+    <property name="SPLUNK_HOSTNAME" value="${logback.splunk.hostname}"/>
+    <property name="SPLUNK_TOKEN_VALUE" value="${logback.splunk.token.value}"/>
+    <property name="SPLUNK_INDEX" value="${logback.splunk.index}"/>-->
+
+    <!-- console log format -->
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %yellow(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %yellow(%C{1.}): %msg%n%throwable
+            </Pattern>
+        </layout>
+    </appender>
+
+    <!-- file log format -->
+    <appender name="File" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/Downtime.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>logs/%d{yyyy-MM-dd,aux}/Job_Portal.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- keep 10 days' worth of history -->
+            <maxHistory>10</maxHistory>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- or whenever the file size reaches 50MB -->
+                <maxFileSize>50MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d %5p | %t | %-54logger{55} | %m %n</pattern>
+        </encoder>
+    </appender>
+
+    <!--  Splunk log format -->
+   <!-- <springProfile name="test">
+        <Appender name="SplunkConnection" class="com.splunk.logging.HttpEventCollectorLogbackAppender">
+            <url>${SPLUNK_HOSTNAME}</url>
+            <token>${SPLUNK_TOKEN_VALUE}</token>
+            <index>${SPLUNK_INDEX}</index>
+            <disableCertificateValidation>true</disableCertificateValidation>
+            <layout class="ch.qos.logback.classic.PatternLayout">
+                <pattern>%msg</pattern>
+            </layout>
+        </Appender>
+    </springProfile>
+
+    <springProfile name="prod">
+        <Appender name="SplunkConnection" class="com.splunk.logging.HttpEventCollectorLogbackAppender">
+            <url>${SPLUNK_HOSTNAME}</url>
+            <token>${SPLUNK_TOKEN_VALUE}</token>
+            <index>${SPLUNK_INDEX}</index>
+            <disableCertificateValidation>true</disableCertificateValidation>
+            <layout class="ch.qos.logback.classic.PatternLayout">
+                <pattern>%msg</pattern>
+            </layout>
+        </Appender>
+    </springProfile>-->
+
+    <!-- LOG at ERROR level-->
+    <root level="INFO">
+        <springProfile name="test,prod">
+            <appender-ref ref="SplunkConnection" />
+        </springProfile>
+        <appender-ref ref="File" />
+        <appender-ref ref="Console" />
+    </root>
+
+
+</configuration>

@@ -1,0 +1,225 @@
+2022-11-20 00:09:36,113  INFO | SpringApplicationShutdownHook | org.mongodb.driver.connection                          | Closed connection [connectionId{localValue:3, serverValue:85}] to localhost:27017 because the pool has been closed. 
+2022-11-20 00:09:47,794  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Starting JobPortalApplication using Java 17.0.5 on aum264s-MacBook-Pro.local with PID 70069 (/Users/sabrina/Downloads/job_portal/target/classes started by sabrina in /Users/sabrina/Downloads/job_portal) 
+2022-11-20 00:09:47,796  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | No active profile set, falling back to default profiles: default 
+2022-11-20 00:09:47,840  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-11-20 00:09:47,840  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-11-20 00:09:48,374  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data MongoDB repositories in DEFAULT mode. 
+2022-11-20 00:09:48,519  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 142 ms. Found 3 MongoDB repository interfaces. 
+2022-11-20 00:09:49,139  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat initialized with port(s): 8080 (http) 
+2022-11-20 00:09:49,148  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Initializing ProtocolHandler ["http-nio-8080"] 
+2022-11-20 00:09:49,148  INFO | restartedMain | org.apache.catalina.core.StandardService               | Starting service [Tomcat] 
+2022-11-20 00:09:49,148  INFO | restartedMain | org.apache.catalina.core.StandardEngine                | Starting Servlet engine: [Apache Tomcat/9.0.52] 
+2022-11-20 00:09:49,205  INFO | restartedMain | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring embedded WebApplicationContext 
+2022-11-20 00:09:49,206  INFO | restartedMain | o.s.b.w.s.context.ServletWebServerApplicationContext   | Root WebApplicationContext: initialization completed in 1365 ms 
+2022-11-20 00:09:49,440  INFO | restartedMain | org.mongodb.driver.cluster                             | Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'} 
+2022-11-20 00:09:49,492  INFO | cluster-rtt-ClusterId{value='6379e0cd6184671b094eff82', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:2, serverValue:92}] to localhost:27017 
+2022-11-20 00:09:49,492  INFO | cluster-ClusterId{value='6379e0cd6184671b094eff82', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:1, serverValue:91}] to localhost:27017 
+2022-11-20 00:09:49,492  INFO | cluster-ClusterId{value='6379e0cd6184671b094eff82', description='null'}-localhost:27017 | org.mongodb.driver.cluster                             | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13420690} 
+2022-11-20 00:09:49,554  INFO | restartedMain | o.s.b.devtools.autoconfigure.OptionalLiveReloadServer  | LiveReload server is running on port 35729 
+2022-11-20 00:09:49,936  INFO | restartedMain | o.s.boot.actuate.endpoint.web.EndpointLinksResolver    | Exposing 1 endpoint(s) beneath base path '/actuator' 
+2022-11-20 00:09:50,228  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Starting ProtocolHandler ["http-nio-8080"] 
+2022-11-20 00:09:50,237  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat started on port(s): 8080 (http) with context path '' 
+2022-11-20 00:09:50,518  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Started JobPortalApplication in 8.063 seconds (JVM running for 8.454) 
+2022-11-20 00:14:01,655  INFO | http-nio-8080-exec-1 | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2022-11-20 00:14:01,656  INFO | http-nio-8080-exec-1 | org.springframework.web.servlet.DispatcherServlet      | Initializing Servlet 'dispatcherServlet' 
+2022-11-20 00:14:01,657  INFO | http-nio-8080-exec-1 | org.springframework.web.servlet.DispatcherServlet      | Completed initialization in 1 ms 
+2022-11-20 00:14:01,769  INFO | http-nio-8080-exec-1 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:3, serverValue:93}] to localhost:27017 
+2022-11-20 00:17:58,397  INFO | SpringApplicationShutdownHook | org.mongodb.driver.connection                          | Closed connection [connectionId{localValue:3, serverValue:93}] to localhost:27017 because the pool has been closed. 
+2022-11-20 00:24:15,786  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Starting JobPortalApplication using Java 17.0.5 on aum264s-MacBook-Pro.local with PID 70119 (/Users/sabrina/Downloads/job_portal/target/classes started by sabrina in /Users/sabrina/Downloads/job_portal) 
+2022-11-20 00:24:15,788  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | No active profile set, falling back to default profiles: default 
+2022-11-20 00:24:15,829  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-11-20 00:24:15,829  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-11-20 00:24:16,321  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data MongoDB repositories in DEFAULT mode. 
+2022-11-20 00:24:16,454  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 130 ms. Found 3 MongoDB repository interfaces. 
+2022-11-20 00:24:17,022  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat initialized with port(s): 8080 (http) 
+2022-11-20 00:24:17,030  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Initializing ProtocolHandler ["http-nio-8080"] 
+2022-11-20 00:24:17,031  INFO | restartedMain | org.apache.catalina.core.StandardService               | Starting service [Tomcat] 
+2022-11-20 00:24:17,031  INFO | restartedMain | org.apache.catalina.core.StandardEngine                | Starting Servlet engine: [Apache Tomcat/9.0.52] 
+2022-11-20 00:24:17,089  INFO | restartedMain | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring embedded WebApplicationContext 
+2022-11-20 00:24:17,089  INFO | restartedMain | o.s.b.w.s.context.ServletWebServerApplicationContext   | Root WebApplicationContext: initialization completed in 1260 ms 
+2022-11-20 00:24:17,310  INFO | restartedMain | org.mongodb.driver.cluster                             | Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'} 
+2022-11-20 00:24:17,360  INFO | cluster-ClusterId{value='6379e4314bf4d02785534aba', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:1, serverValue:94}] to localhost:27017 
+2022-11-20 00:24:17,360  INFO | cluster-rtt-ClusterId{value='6379e4314bf4d02785534aba', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:2, serverValue:95}] to localhost:27017 
+2022-11-20 00:24:17,360  INFO | cluster-ClusterId{value='6379e4314bf4d02785534aba', description='null'}-localhost:27017 | org.mongodb.driver.cluster                             | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=12506562} 
+2022-11-20 00:24:17,419  INFO | restartedMain | o.s.b.devtools.autoconfigure.OptionalLiveReloadServer  | LiveReload server is running on port 35729 
+2022-11-20 00:24:17,791  INFO | restartedMain | o.s.boot.actuate.endpoint.web.EndpointLinksResolver    | Exposing 1 endpoint(s) beneath base path '/actuator' 
+2022-11-20 00:24:18,084  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Starting ProtocolHandler ["http-nio-8080"] 
+2022-11-20 00:24:18,093  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat started on port(s): 8080 (http) with context path '' 
+2022-11-20 00:24:18,316  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Started JobPortalApplication in 7.837 seconds (JVM running for 8.21) 
+2022-11-20 00:24:22,753  INFO | http-nio-8080-exec-2 | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2022-11-20 00:24:22,753  INFO | http-nio-8080-exec-2 | org.springframework.web.servlet.DispatcherServlet      | Initializing Servlet 'dispatcherServlet' 
+2022-11-20 00:24:22,754  INFO | http-nio-8080-exec-2 | org.springframework.web.servlet.DispatcherServlet      | Completed initialization in 1 ms 
+2022-11-20 00:24:22,814  INFO | http-nio-8080-exec-2 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:3, serverValue:96}] to localhost:27017 
+2022-11-20 00:24:34,018  INFO | SpringApplicationShutdownHook | org.mongodb.driver.connection                          | Closed connection [connectionId{localValue:3, serverValue:96}] to localhost:27017 because the pool has been closed. 
+2022-11-20 00:25:36,696  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Starting JobPortalApplication using Java 17.0.5 on aum264s-MacBook-Pro.local with PID 70136 (/Users/sabrina/Downloads/job_portal/target/classes started by sabrina in /Users/sabrina/Downloads/job_portal) 
+2022-11-20 00:25:36,697  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | No active profile set, falling back to default profiles: default 
+2022-11-20 00:25:36,730  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-11-20 00:25:36,730  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-11-20 00:25:37,113  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data MongoDB repositories in DEFAULT mode. 
+2022-11-20 00:25:37,189  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 74 ms. Found 3 MongoDB repository interfaces. 
+2022-11-20 00:25:37,649  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat initialized with port(s): 8080 (http) 
+2022-11-20 00:25:37,655  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Initializing ProtocolHandler ["http-nio-8080"] 
+2022-11-20 00:25:37,655  INFO | restartedMain | org.apache.catalina.core.StandardService               | Starting service [Tomcat] 
+2022-11-20 00:25:37,655  INFO | restartedMain | org.apache.catalina.core.StandardEngine                | Starting Servlet engine: [Apache Tomcat/9.0.52] 
+2022-11-20 00:25:37,706  INFO | restartedMain | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring embedded WebApplicationContext 
+2022-11-20 00:25:37,706  INFO | restartedMain | o.s.b.w.s.context.ServletWebServerApplicationContext   | Root WebApplicationContext: initialization completed in 975 ms 
+2022-11-20 00:25:37,870  INFO | restartedMain | org.mongodb.driver.cluster                             | Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'} 
+2022-11-20 00:25:37,914  INFO | cluster-ClusterId{value='6379e481f632726d200eaea0', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:1, serverValue:98}] to localhost:27017 
+2022-11-20 00:25:37,915  INFO | cluster-rtt-ClusterId{value='6379e481f632726d200eaea0', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:2, serverValue:97}] to localhost:27017 
+2022-11-20 00:25:37,915  INFO | cluster-ClusterId{value='6379e481f632726d200eaea0', description='null'}-localhost:27017 | org.mongodb.driver.cluster                             | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=14563767} 
+2022-11-20 00:25:37,964  INFO | restartedMain | o.s.b.devtools.autoconfigure.OptionalLiveReloadServer  | LiveReload server is running on port 35729 
+2022-11-20 00:25:38,279  INFO | restartedMain | o.s.boot.actuate.endpoint.web.EndpointLinksResolver    | Exposing 1 endpoint(s) beneath base path '/actuator' 
+2022-11-20 00:25:38,517  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Starting ProtocolHandler ["http-nio-8080"] 
+2022-11-20 00:25:38,526  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat started on port(s): 8080 (http) with context path '' 
+2022-11-20 00:25:38,751  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Started JobPortalApplication in 7.334 seconds (JVM running for 7.604) 
+2022-11-20 00:26:30,081  INFO | http-nio-8080-exec-2 | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2022-11-20 00:26:30,081  INFO | http-nio-8080-exec-2 | org.springframework.web.servlet.DispatcherServlet      | Initializing Servlet 'dispatcherServlet' 
+2022-11-20 00:26:30,082  INFO | http-nio-8080-exec-2 | org.springframework.web.servlet.DispatcherServlet      | Completed initialization in 1 ms 
+2022-11-20 00:26:30,179  INFO | http-nio-8080-exec-2 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:3, serverValue:99}] to localhost:27017 
+2022-11-20 00:34:10,974  WARN | http-nio-8080-exec-2 | o.s.w.s.mvc.support.DefaultHandlerExceptionResolver    | Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported] 
+2022-11-20 00:34:24,990  INFO | SpringApplicationShutdownHook | org.mongodb.driver.connection                          | Closed connection [connectionId{localValue:3, serverValue:99}] to localhost:27017 because the pool has been closed. 
+2022-11-20 00:34:35,929  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Starting JobPortalApplication using Java 17.0.5 on aum264s-MacBook-Pro.local with PID 70185 (/Users/sabrina/Downloads/job_portal/target/classes started by sabrina in /Users/sabrina/Downloads/job_portal) 
+2022-11-20 00:34:35,931  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | No active profile set, falling back to default profiles: default 
+2022-11-20 00:34:35,977  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-11-20 00:34:35,977  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-11-20 00:34:36,485  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data MongoDB repositories in DEFAULT mode. 
+2022-11-20 00:34:36,602  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 114 ms. Found 3 MongoDB repository interfaces. 
+2022-11-20 00:34:37,149  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat initialized with port(s): 8080 (http) 
+2022-11-20 00:34:37,158  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Initializing ProtocolHandler ["http-nio-8080"] 
+2022-11-20 00:34:37,158  INFO | restartedMain | org.apache.catalina.core.StandardService               | Starting service [Tomcat] 
+2022-11-20 00:34:37,159  INFO | restartedMain | org.apache.catalina.core.StandardEngine                | Starting Servlet engine: [Apache Tomcat/9.0.52] 
+2022-11-20 00:34:37,231  INFO | restartedMain | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring embedded WebApplicationContext 
+2022-11-20 00:34:37,232  INFO | restartedMain | o.s.b.w.s.context.ServletWebServerApplicationContext   | Root WebApplicationContext: initialization completed in 1255 ms 
+2022-11-20 00:34:37,434  INFO | restartedMain | org.mongodb.driver.cluster                             | Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'} 
+2022-11-20 00:34:37,502  INFO | cluster-ClusterId{value='6379e69de5eb5e28ab648cae', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:2, serverValue:114}] to localhost:27017 
+2022-11-20 00:34:37,502  INFO | cluster-rtt-ClusterId{value='6379e69de5eb5e28ab648cae', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:1, serverValue:115}] to localhost:27017 
+2022-11-20 00:34:37,502  INFO | cluster-ClusterId{value='6379e69de5eb5e28ab648cae', description='null'}-localhost:27017 | org.mongodb.driver.cluster                             | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19802716} 
+2022-11-20 00:34:37,584  INFO | restartedMain | o.s.b.devtools.autoconfigure.OptionalLiveReloadServer  | LiveReload server is running on port 35729 
+2022-11-20 00:34:37,921  INFO | restartedMain | o.s.boot.actuate.endpoint.web.EndpointLinksResolver    | Exposing 1 endpoint(s) beneath base path '/actuator' 
+2022-11-20 00:34:38,188  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Starting ProtocolHandler ["http-nio-8080"] 
+2022-11-20 00:34:38,198  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat started on port(s): 8080 (http) with context path '' 
+2022-11-20 00:34:38,444  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Started JobPortalApplication in 7.824 seconds (JVM running for 8.176) 
+2022-11-20 00:34:59,303  INFO | http-nio-8080-exec-2 | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2022-11-20 00:34:59,303  INFO | http-nio-8080-exec-2 | org.springframework.web.servlet.DispatcherServlet      | Initializing Servlet 'dispatcherServlet' 
+2022-11-20 00:34:59,305  INFO | http-nio-8080-exec-2 | org.springframework.web.servlet.DispatcherServlet      | Completed initialization in 1 ms 
+2022-11-20 00:34:59,351  INFO | http-nio-8080-exec-2 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:3, serverValue:116}] to localhost:27017 
+2022-11-20 00:35:44,822 ERROR | http-nio-8080-exec-3 | com.wju.job_portal.controller.UserController           | Exception when create a new User: Cannot invoke "String.getBytes()" because the return value of "com.wju.job_portal.document.User.getPassword()" is null  
+2022-11-20 00:36:08,295  WARN | http-nio-8080-exec-5 | org.springframework.web.servlet.PageNotFound           | No mapping for POST /v1/postPosition 
+2022-11-20 00:46:01,993  WARN | http-nio-8080-exec-3 | org.springframework.web.servlet.PageNotFound           | No mapping for GET /v1/getUserByPosition/6379db60e6bcc36b8136760e 
+2022-11-20 00:46:27,948  WARN | http-nio-8080-exec-4 | org.springframework.web.servlet.PageNotFound           | No mapping for GET /v1/getUserByPosition/6379db60e6bcc36b8136760e 
+2022-11-20 00:46:40,064  WARN | http-nio-8080-exec-5 | org.springframework.web.servlet.PageNotFound           | No mapping for GET /v1/getUserByPosition/6379db60e6bcc36b8136760e 
+2022-11-20 00:49:10,579  INFO | SpringApplicationShutdownHook | org.mongodb.driver.connection                          | Closed connection [connectionId{localValue:3, serverValue:116}] to localhost:27017 because the pool has been closed. 
+2022-11-20 00:49:21,878  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Starting JobPortalApplication using Java 17.0.5 on aum264s-MacBook-Pro.local with PID 70224 (/Users/sabrina/Downloads/job_portal/target/classes started by sabrina in /Users/sabrina/Downloads/job_portal) 
+2022-11-20 00:49:21,880  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | No active profile set, falling back to default profiles: default 
+2022-11-20 00:49:21,921  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-11-20 00:49:21,921  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-11-20 00:49:22,434  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data MongoDB repositories in DEFAULT mode. 
+2022-11-20 00:49:22,572  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 135 ms. Found 3 MongoDB repository interfaces. 
+2022-11-20 00:49:23,152  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat initialized with port(s): 8080 (http) 
+2022-11-20 00:49:23,161  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Initializing ProtocolHandler ["http-nio-8080"] 
+2022-11-20 00:49:23,161  INFO | restartedMain | org.apache.catalina.core.StandardService               | Starting service [Tomcat] 
+2022-11-20 00:49:23,161  INFO | restartedMain | org.apache.catalina.core.StandardEngine                | Starting Servlet engine: [Apache Tomcat/9.0.52] 
+2022-11-20 00:49:23,214  INFO | restartedMain | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring embedded WebApplicationContext 
+2022-11-20 00:49:23,215  INFO | restartedMain | o.s.b.w.s.context.ServletWebServerApplicationContext   | Root WebApplicationContext: initialization completed in 1293 ms 
+2022-11-20 00:49:23,436  INFO | restartedMain | org.mongodb.driver.cluster                             | Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'} 
+2022-11-20 00:49:23,484  INFO | cluster-ClusterId{value='6379ea13e39b6344d6e11ec9', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:1, serverValue:123}] to localhost:27017 
+2022-11-20 00:49:23,484  INFO | cluster-rtt-ClusterId{value='6379ea13e39b6344d6e11ec9', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:2, serverValue:124}] to localhost:27017 
+2022-11-20 00:49:23,484  INFO | cluster-ClusterId{value='6379ea13e39b6344d6e11ec9', description='null'}-localhost:27017 | org.mongodb.driver.cluster                             | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=12854520} 
+2022-11-20 00:49:23,545  INFO | restartedMain | o.s.b.devtools.autoconfigure.OptionalLiveReloadServer  | LiveReload server is running on port 35729 
+2022-11-20 00:49:23,911  INFO | restartedMain | o.s.boot.actuate.endpoint.web.EndpointLinksResolver    | Exposing 1 endpoint(s) beneath base path '/actuator' 
+2022-11-20 00:49:24,202  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Starting ProtocolHandler ["http-nio-8080"] 
+2022-11-20 00:49:24,211  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat started on port(s): 8080 (http) with context path '' 
+2022-11-20 00:49:24,431  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Started JobPortalApplication in 7.881 seconds (JVM running for 8.252) 
+2022-11-20 00:49:32,649  INFO | http-nio-8080-exec-2 | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2022-11-20 00:49:32,649  INFO | http-nio-8080-exec-2 | org.springframework.web.servlet.DispatcherServlet      | Initializing Servlet 'dispatcherServlet' 
+2022-11-20 00:49:32,650  INFO | http-nio-8080-exec-2 | org.springframework.web.servlet.DispatcherServlet      | Completed initialization in 1 ms 
+2022-11-20 00:49:32,713  INFO | http-nio-8080-exec-2 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:3, serverValue:125}] to localhost:27017 
+2022-11-20 01:05:54,071  WARN | http-nio-8080-exec-9 | org.springframework.web.servlet.PageNotFound           | No mapping for GET /getPositionByCompany/DEFG%20Inc 
+2022-11-20 01:05:59,414  WARN | http-nio-8080-exec-10 | org.springframework.web.servlet.PageNotFound           | No mapping for GET /getPositionsByCompany/DEFG%20Inc 
+2022-11-20 01:06:04,642  WARN | http-nio-8080-exec-1 | org.springframework.web.servlet.PageNotFound           | No mapping for GET /getPositionsByCompany/DEFG%20Inc 
+2022-11-20 01:07:33,724  WARN | http-nio-8080-exec-6 | org.springframework.web.servlet.PageNotFound           | No mapping for GET /getPositionByCompany/DEFGInc 
+2022-11-20 01:07:58,697  INFO | SpringApplicationShutdownHook | org.mongodb.driver.connection                          | Closed connection [connectionId{localValue:3, serverValue:125}] to localhost:27017 because the pool has been closed. 
+2022-11-20 01:08:10,101  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Starting JobPortalApplication using Java 17.0.5 on aum264s-MacBook-Pro.local with PID 70429 (/Users/sabrina/Downloads/job_portal/target/classes started by sabrina in /Users/sabrina/Downloads/job_portal) 
+2022-11-20 01:08:10,103  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | No active profile set, falling back to default profiles: default 
+2022-11-20 01:08:10,139  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-11-20 01:08:10,140  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-11-20 01:08:10,640  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data MongoDB repositories in DEFAULT mode. 
+2022-11-20 01:08:10,777  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 133 ms. Found 3 MongoDB repository interfaces. 
+2022-11-20 01:08:11,346  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat initialized with port(s): 8080 (http) 
+2022-11-20 01:08:11,354  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Initializing ProtocolHandler ["http-nio-8080"] 
+2022-11-20 01:08:11,355  INFO | restartedMain | org.apache.catalina.core.StandardService               | Starting service [Tomcat] 
+2022-11-20 01:08:11,355  INFO | restartedMain | org.apache.catalina.core.StandardEngine                | Starting Servlet engine: [Apache Tomcat/9.0.52] 
+2022-11-20 01:08:11,412  INFO | restartedMain | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring embedded WebApplicationContext 
+2022-11-20 01:08:11,412  INFO | restartedMain | o.s.b.w.s.context.ServletWebServerApplicationContext   | Root WebApplicationContext: initialization completed in 1272 ms 
+2022-11-20 01:08:11,649  INFO | restartedMain | org.mongodb.driver.cluster                             | Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'} 
+2022-11-20 01:08:11,701  INFO | cluster-rtt-ClusterId{value='6379ee7bda73b655aa2335f3', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:2, serverValue:126}] to localhost:27017 
+2022-11-20 01:08:11,701  INFO | cluster-ClusterId{value='6379ee7bda73b655aa2335f3', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:1, serverValue:127}] to localhost:27017 
+2022-11-20 01:08:11,701  INFO | cluster-ClusterId{value='6379ee7bda73b655aa2335f3', description='null'}-localhost:27017 | org.mongodb.driver.cluster                             | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13621351} 
+2022-11-20 01:08:11,766  INFO | restartedMain | o.s.b.devtools.autoconfigure.OptionalLiveReloadServer  | LiveReload server is running on port 35729 
+2022-11-20 01:08:12,161  INFO | restartedMain | o.s.boot.actuate.endpoint.web.EndpointLinksResolver    | Exposing 1 endpoint(s) beneath base path '/actuator' 
+2022-11-20 01:08:12,450  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Starting ProtocolHandler ["http-nio-8080"] 
+2022-11-20 01:08:12,459  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat started on port(s): 8080 (http) with context path '' 
+2022-11-20 01:08:12,686  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Started JobPortalApplication in 7.917 seconds (JVM running for 8.223) 
+2022-11-20 01:08:16,994  INFO | http-nio-8080-exec-2 | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2022-11-20 01:08:16,994  INFO | http-nio-8080-exec-2 | org.springframework.web.servlet.DispatcherServlet      | Initializing Servlet 'dispatcherServlet' 
+2022-11-20 01:08:16,995  INFO | http-nio-8080-exec-2 | org.springframework.web.servlet.DispatcherServlet      | Completed initialization in 1 ms 
+2022-11-20 01:08:17,006  WARN | http-nio-8080-exec-2 | org.springframework.web.servlet.PageNotFound           | No mapping for GET /getPositionByCompany/DEFGInc 
+2022-11-20 01:08:32,592  INFO | http-nio-8080-exec-3 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:3, serverValue:128}] to localhost:27017 
+2022-11-20 01:22:56,686  INFO | SpringApplicationShutdownHook | org.mongodb.driver.connection                          | Closed connection [connectionId{localValue:3, serverValue:128}] to localhost:27017 because the pool has been closed. 
+2022-11-20 01:30:47,755  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Starting JobPortalApplication using Java 17.0.5 on aum264s-MacBook-Pro.local with PID 70837 (/Users/sabrina/Downloads/job_portal/target/classes started by sabrina in /Users/sabrina/Downloads/job_portal) 
+2022-11-20 01:30:47,757  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | No active profile set, falling back to default profiles: default 
+2022-11-20 01:30:47,800  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-11-20 01:30:47,801  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-11-20 01:30:48,381  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data MongoDB repositories in DEFAULT mode. 
+2022-11-20 01:30:48,517  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 133 ms. Found 3 MongoDB repository interfaces. 
+2022-11-20 01:30:49,142  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat initialized with port(s): 8080 (http) 
+2022-11-20 01:30:49,151  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Initializing ProtocolHandler ["http-nio-8080"] 
+2022-11-20 01:30:49,152  INFO | restartedMain | org.apache.catalina.core.StandardService               | Starting service [Tomcat] 
+2022-11-20 01:30:49,152  INFO | restartedMain | org.apache.catalina.core.StandardEngine                | Starting Servlet engine: [Apache Tomcat/9.0.52] 
+2022-11-20 01:30:49,211  INFO | restartedMain | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring embedded WebApplicationContext 
+2022-11-20 01:30:49,212  INFO | restartedMain | o.s.b.w.s.context.ServletWebServerApplicationContext   | Root WebApplicationContext: initialization completed in 1411 ms 
+2022-11-20 01:30:49,453  INFO | restartedMain | org.mongodb.driver.cluster                             | Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'} 
+2022-11-20 01:30:49,505  INFO | cluster-ClusterId{value='6379f3c9feb2527a9245b16e', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017 
+2022-11-20 01:30:49,505  INFO | cluster-rtt-ClusterId{value='6379f3c9feb2527a9245b16e', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:2, serverValue:1}] to localhost:27017 
+2022-11-20 01:30:49,505  INFO | cluster-ClusterId{value='6379f3c9feb2527a9245b16e', description='null'}-localhost:27017 | org.mongodb.driver.cluster                             | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=14273333} 
+2022-11-20 01:30:49,571  INFO | restartedMain | o.s.b.devtools.autoconfigure.OptionalLiveReloadServer  | LiveReload server is running on port 35729 
+2022-11-20 01:30:49,959  INFO | restartedMain | o.s.boot.actuate.endpoint.web.EndpointLinksResolver    | Exposing 1 endpoint(s) beneath base path '/actuator' 
+2022-11-20 01:30:50,253  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Starting ProtocolHandler ["http-nio-8080"] 
+2022-11-20 01:30:50,263  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat started on port(s): 8080 (http) with context path '' 
+2022-11-20 01:30:50,505  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Started JobPortalApplication in 8.051 seconds (JVM running for 8.368) 
+2022-11-20 01:32:40,997  INFO | http-nio-8080-exec-2 | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2022-11-20 01:32:40,997  INFO | http-nio-8080-exec-2 | org.springframework.web.servlet.DispatcherServlet      | Initializing Servlet 'dispatcherServlet' 
+2022-11-20 01:32:40,998  INFO | http-nio-8080-exec-2 | org.springframework.web.servlet.DispatcherServlet      | Completed initialization in 1 ms 
+2022-11-20 01:32:41,095  INFO | http-nio-8080-exec-2 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:3, serverValue:3}] to localhost:27017 
+2022-11-20 01:39:41,641  WARN | http-nio-8080-exec-3 | org.springframework.web.servlet.PageNotFound           | No mapping for POST /v1/loginCompany 
+2022-11-20 01:39:51,214  INFO | SpringApplicationShutdownHook | org.mongodb.driver.connection                          | Closed connection [connectionId{localValue:3, serverValue:3}] to localhost:27017 because the pool has been closed. 
+2022-11-20 01:40:02,521  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Starting JobPortalApplication using Java 17.0.5 on aum264s-MacBook-Pro.local with PID 70877 (/Users/sabrina/Downloads/job_portal/target/classes started by sabrina in /Users/sabrina/Downloads/job_portal) 
+2022-11-20 01:40:02,523  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | No active profile set, falling back to default profiles: default 
+2022-11-20 01:40:02,555  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-11-20 01:40:02,555  INFO | restartedMain | o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor      | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-11-20 01:40:03,028  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data MongoDB repositories in DEFAULT mode. 
+2022-11-20 01:40:03,123  INFO | restartedMain | o.s.d.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 92 ms. Found 3 MongoDB repository interfaces. 
+2022-11-20 01:40:03,674  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat initialized with port(s): 8080 (http) 
+2022-11-20 01:40:03,681  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Initializing ProtocolHandler ["http-nio-8080"] 
+2022-11-20 01:40:03,682  INFO | restartedMain | org.apache.catalina.core.StandardService               | Starting service [Tomcat] 
+2022-11-20 01:40:03,682  INFO | restartedMain | org.apache.catalina.core.StandardEngine                | Starting Servlet engine: [Apache Tomcat/9.0.52] 
+2022-11-20 01:40:03,734  INFO | restartedMain | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring embedded WebApplicationContext 
+2022-11-20 01:40:03,735  INFO | restartedMain | o.s.b.w.s.context.ServletWebServerApplicationContext   | Root WebApplicationContext: initialization completed in 1180 ms 
+2022-11-20 01:40:03,949  INFO | restartedMain | org.mongodb.driver.cluster                             | Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'} 
+2022-11-20 01:40:03,994  INFO | cluster-rtt-ClusterId{value='6379f5f3d452846d676c56aa', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:2, serverValue:5}] to localhost:27017 
+2022-11-20 01:40:03,995  INFO | cluster-ClusterId{value='6379f5f3d452846d676c56aa', description='null'}-localhost:27017 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:1, serverValue:4}] to localhost:27017 
+2022-11-20 01:40:03,995  INFO | cluster-ClusterId{value='6379f5f3d452846d676c56aa', description='null'}-localhost:27017 | org.mongodb.driver.cluster                             | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=12868898} 
+2022-11-20 01:40:04,055  INFO | restartedMain | o.s.b.devtools.autoconfigure.OptionalLiveReloadServer  | LiveReload server is running on port 35729 
+2022-11-20 01:40:04,396  INFO | restartedMain | o.s.boot.actuate.endpoint.web.EndpointLinksResolver    | Exposing 1 endpoint(s) beneath base path '/actuator' 
+2022-11-20 01:40:04,660  INFO | restartedMain | org.apache.coyote.http11.Http11NioProtocol             | Starting ProtocolHandler ["http-nio-8080"] 
+2022-11-20 01:40:04,669  INFO | restartedMain | o.s.boot.web.embedded.tomcat.TomcatWebServer           | Tomcat started on port(s): 8080 (http) with context path '' 
+2022-11-20 01:40:04,915  INFO | restartedMain | com.wju.job_portal.JobPortalApplication                | Started JobPortalApplication in 7.689 seconds (JVM running for 7.999) 
+2022-11-20 01:40:08,152  INFO | http-nio-8080-exec-1 | o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]      | Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2022-11-20 01:40:08,153  INFO | http-nio-8080-exec-1 | org.springframework.web.servlet.DispatcherServlet      | Initializing Servlet 'dispatcherServlet' 
+2022-11-20 01:40:08,154  INFO | http-nio-8080-exec-1 | org.springframework.web.servlet.DispatcherServlet      | Completed initialization in 1 ms 
+2022-11-20 01:40:08,242  INFO | http-nio-8080-exec-1 | org.mongodb.driver.connection                          | Opened connection [connectionId{localValue:3, serverValue:6}] to localhost:27017 
+2022-11-20 01:40:08,257 ERROR | http-nio-8080-exec-1 | com.wju.job_portal.manager.CompanyManager              | There is no Company with email hrmanager@123mail.com 
+2022-11-20 01:40:08,258 ERROR | http-nio-8080-exec-1 | com.wju.job_portal.controller.CompanyController        | Exception when Company login: No Company Exist  
+2022-11-20 01:40:24,972 ERROR | http-nio-8080-exec-4 | com.wju.job_portal.manager.CompanyManager              | There is no Company with email hrmanager@123mail.com 
+2022-11-20 01:40:24,972 ERROR | http-nio-8080-exec-4 | com.wju.job_portal.controller.CompanyController        | Exception when Company login: No Company Exist  
+2022-11-20 01:40:58,267  INFO | SpringApplicationShutdownHook | org.mongodb.driver.connection                          | Closed connection [connectionId{localValue:3, serverValue:6}] to localhost:27017 because the pool has been closed. 

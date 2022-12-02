@@ -1,0 +1,15 @@
+version: '3'
+services:
+  mysql:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 'password'
+      MYSQL_DATABASE: 'job_portal'
+      MYSQL_USER: 'user1'
+      MYSQL_PASSWORD: 'password'
+      MYSQL_TCP_PORT: 3307
+    ports:
+      - '3307:3307'
+    volumes:
+      - ./scripts/init.sql:/docker-entrypoint-initdb.d/1.sql
